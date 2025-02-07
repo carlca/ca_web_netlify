@@ -170,7 +170,6 @@ struct PageHandler(HTTPService):
     return str(page)
 
 fn main() raises:
-
   if use_lightbug_http:
     var server = Server()
     var handler = PageHandler()
